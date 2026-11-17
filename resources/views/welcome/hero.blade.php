@@ -1,5 +1,5 @@
 <!-- Main Content (Hero) -->
-<main id="home" class="flex-grow flex items-center justify-center pt-32 pb-0 px-6 relative bg-[#0b215e] overflow-hidden">
+<main id="home" class="flex-grow flex items-stretch justify-center pt-32 pb-0 px-6 relative bg-[#0b215e] overflow-hidden">
     <!-- Floating Elements Background & Network Pattern -->
     <div class="absolute inset-0 z-0 opacity-40 pointer-events-none">
         <!-- Simple subtle gradient glow -->
@@ -39,8 +39,8 @@
         </div>
         
         <!-- Right Side: Governor Portrait -->
-        <div class="w-full lg:w-1/2 flex justify-center lg:justify-end items-end h-full self-end">
-            <img src="{{ asset('govlray.png') }}" alt="Gov. Luis Lray Villafuerte" class="relative w-full max-w-[32rem] xl:max-w-[42rem] h-auto drop-shadow-[0_15px_35px_rgba(0,0,0,0.6)] hover:scale-[1.02] transition-transform duration-500 origin-bottom" onerror="this.src='https://via.placeholder.com/600x700/1e293b/94a3b8?text=Governor+Portrait'">
+        <div class="w-full lg:w-1/2 flex justify-center lg:justify-end items-end self-stretch">
+            <img src="{{ asset('govlray.png') }}" alt="Gov. Luis Lray Villafuerte" class="relative block w-full max-w-[32rem] xl:max-w-[42rem] h-auto drop-shadow-[0_15px_35px_rgba(0,0,0,0.6)] hover:scale-[1.02] transition-transform duration-500 origin-bottom" onerror="this.src='https://via.placeholder.com/600x700/1e293b/94a3b8?text=Governor+Portrait'">
         </div>
     </div>
 </main>
