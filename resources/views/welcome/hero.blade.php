@@ -35,6 +35,8 @@
                 <img src="{{ asset('logo.png') }}" alt="Province of Camarines Sur" class="w-20 h-20 object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.2)] hover:scale-105 transition-transform" onerror="this.src='https://via.placeholder.com/100/1e293b/94a3b8?text=CS+Seal'">
                 <!-- Other Logo (Training Logo) -->
                 <img src="{{ asset('lray_logo.png') }}" alt="Training Program Logo" class="w-20 h-20 object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.2)] hover:scale-105 transition-transform" onerror="this.src='https://via.placeholder.com/100/1e293b/94a3b8?text=Logo'">
+                <!-- SEAICT Logo -->
+                <img src="{{ asset('seaict_logo.png') }}" alt="Southeast Asian Institute of Computer Technology (SEAICT)" class="w-20 h-20 object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.2)] hover:scale-105 transition-transform" onerror="this.src='https://via.placeholder.com/100/1e293b/94a3b8?text=SEAICT'">
             </div>
         </div>
         
